@@ -1,0 +1,72 @@
+*{margin: 0%;padding: 0%;}
+.par{width: 80%;height: 100vh;margin-left: 10%;}
+.dv{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(228, 13, 13);
+    margin: 10px 0px;
+}
+.dv2, .dv4, .dv6{
+    margin-left: auto;
+}
+.dv1
+{animation-name: dv1;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+@keyframes dv1{
+    0% {margin-left: 0%;}
+    100% {margin-left: 94%;}
+}
+.dv2{
+    animation-name: dv2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+}
+@keyframes dv2{
+    0% {margin-left:94% ;}
+    100% {margin-left: 0%;}
+}
+.dv3{
+    animation-name: dv3;
+    animation-duration: 4s;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+}
+@keyframes dv3{
+    0% {margin-left: 0%;}
+    100% {margin-left: 94%;}
+
+}
+.dv4{
+    animation-name: dv4;
+    animation-duration: 4s;
+    animation-delay: 12s;
+    animation-fill-mode: both;
+}
+@keyframes dv4{
+    0% {margin-left:94% ;}
+    100% {margin-left: 0%;}
+}
+.dv5{
+    animation-name: dv5;
+    animation-duration: 4s;
+    animation-delay: 16s;
+    animation-fill-mode: both;
+}
+@keyframes dv5{
+    0% {margin-left: 0%;}
+    100% {margin-left: 94%;}
+
+}
+.dv6{
+    animation-name: dv6;
+    animation-duration: 4s;
+    animation-delay: 20s;
+    animation-fill-mode: both;
+}
+@keyframes dv6{
+    0% {margin-left:94% ;}
+    100% {margin-left: 0%;}
+}
